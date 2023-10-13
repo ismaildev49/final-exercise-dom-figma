@@ -1,0 +1,25 @@
+.hero{
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        position: relative;
+        .txt{
+            padding-right: 110px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+            
+        }
+        .image::before{
+            content: " ";
+            background-image: url(assets/image\ 8.png);
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: -50px;
+            display: block;
+        }
+        
+    }
+}

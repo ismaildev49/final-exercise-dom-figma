@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'averta_demo_pe_cutted_demoRg', sans-serif;
+}
+
+body{
+    background: #FEFEFE;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    color: #565656;
+    line-height: 26px;
+}
+h2{
+    font-size: 2.5em;
+}
+.btn{
+    padding: 20px 40px;
+    border-radius: 60px;
+    background-color: #2639ED;
+    max-width: 215px;
+    color: white;
+    text-align: center;
+}

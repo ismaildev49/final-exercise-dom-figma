@@ -1,0 +1,17 @@
+.slides .container{
+    display: flex;
+    height: 125px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    .txt{
+        min-width : 340px;
+        padding-right: 30px;
+    }
+}
+.swiper{
+    position: static;
+    height: 100%;
+}
+.swiper img{
+    height : 80%
+}
