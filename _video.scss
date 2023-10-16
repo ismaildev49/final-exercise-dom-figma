@@ -1,0 +1,36 @@
+.video-section .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 120px;
+    margin-bottom: 100px;
+    .video{
+        box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
+        border-radius: 32px;
+        position: relative;
+    }
+    .video::after{
+        content: "";
+        position: absolute;
+        width: 130px;
+        height: 130px;
+        background-color: #FFF5DB;
+
+        bottom: -50px;
+    }
+    .txt{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        position: relative;
+    }
+    .txt::before{
+        content: "";
+        width: 178px;
+        height: 178px;
+        position: absolute;
+        background-color: #f4f9ff;
+        border-radius: 0px 0px 100px 0px;
+        z-index: -1;
+    }
+}

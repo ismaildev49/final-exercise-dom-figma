@@ -8,3 +8,4 @@ var swiper = new Swiper(".mySwiper", {
     slidesPerView: 4,
     loop: true,   
   });
+
